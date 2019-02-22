@@ -7,12 +7,12 @@ server:
   port:3355
 spring:
   application:
-    name:MICRO-SERVER-DEV
-  profiles:dev #开发环境
+    name: MICRO-SERVER-DEV
+  profiles: dev #开发环境
 ---
 server:
   port:3356
 spring:
   application:
-    name:MICRO-SERVER-TEST
-  profiles:test #测试环境
+    name: MICRO-SERVER-TEST
+  profiles: test #测试环境
